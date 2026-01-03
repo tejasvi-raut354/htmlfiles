@@ -1,0 +1,104 @@
+*{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.main_box{
+    height:100hv;
+    background-size: cover;
+}
+.btn_one{
+         color: aliceblue;
+         font-size:30px;
+         font-weight:700; 
+         position: absolute;
+         left:16px;
+         line-height:60px;
+        cursor:pointer;
+        transition:all 0.3s linear;
+
+
+}
+.sidebar_menu{
+  
+       position:absolute;
+       height:100vh;
+       width:300px;
+       background-color: gray;
+       box-shadow:0 0 6px gainsboro;
+       left:-300px;
+       transition:all 0.3s linear;
+}
+.sidebar_menu .logo{
+      position:absolute;
+      width:100%;
+      line-height:60px;
+      box-shadow:0 0 4px gainsboro;
+}
+.sidebar_menu .logo a{
+       position:absolute;
+       left:50px;
+       color:rgba(255, 255, 255, 0.938);
+       text-decoration: none;
+       font-size:20px;
+       font-weight: 4000;
+}
+.sidebar_menu .menu{
+  position:absolute;
+  width:100%;
+  top:60px;
+
+}
+.sidebar_menu .btn_two i{
+       color: white;
+         font-size:25px;
+         font-weight: 700; 
+         line-height: 60px;
+         position: absolute;
+         left:275px;
+         cursor:pointer;
+          transition:all 0.3s linear;
+
+}
+.sidebar_menu .menu li{
+         margin-top: 6px;
+         padding:14px 20px;
+}
+.sidebar_menu .menu i a{
+         color:brown;
+         text-decoration:none;
+          font-size: 20px;
+}
+.sidebar_menu .menu i {
+         padding-right:8px;
+         
+}
+.sidebar_menu .social_media {
+  position:obsolute;
+  left:25%;
+  bottom:50px;
+}
+.sidebar_menu .social_media i {
+ color:white;
+  opacity:0.3;
+  padding:0 5px;
+}
+#check{
+  display:none;
+}
+.sidebar_menu .menu li:hover {
+    box-shadow:0 0 4px gainsboro;
+
+}
+.btn_one i:hover{
+  font-size:40px;
+}
+.btn_two i:hover{
+  font-size:30px;
+}
+#check:checked ~.sidebar_menu{
+  left:0;
+}
+#check:checked ~sidebar_menu .btn_two i{
+  opacity:0;
+} 

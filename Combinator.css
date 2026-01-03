@@ -1,0 +1,48 @@
+h1+h2{
+    color: aliceblue;
+    background-color: blue;
+}
+div>p{
+    color: aliceblue;
+    background-color: brown;
+}
+input[type="text"]
+{
+    color: rgb(12, 12, 12);
+    background-color: blueviolet;
+}
+input[type="password"]{
+    color: rgb(27, 29, 29);
+    background-color: rgb(255, 0, 85);
+}
+button:hover{
+    background-color: rgb(255, 6, 6);
+    color: aliceblue;
+}
+h1:active{
+    color: fuchsia;
+}
+input[type="radio"]checked+label{
+        color: rgb(255, 0, 119);
+}
+div:nth-of-type(3)
+{
+    background-color: lime;
+}
+h1::first-letter
+{
+    color: blueviolet;
+}
+p::first-line
+{
+    color: aqua;
+}
+h3::selection
+{
+    background-color: hotpink;
+}
+h4::selection
+{
+    background-color: yellow;
+}
+

@@ -1,0 +1,27 @@
+div
+{
+    Height:10px;
+}
+div
+{
+    width:2000px;
+}
+<!--border shortland
+ div{
+         border-width: 5px;
+            border-style: solid;
+            border-color: black;
+
+}
+div
+{
+    border:5px solid blue;
+}
+div{
+    border-top-color:blue;
+    border-top-style:dashed;
+}
+div{
+    border-radius:15px;
+    border-top-right-radius:15px;
+}

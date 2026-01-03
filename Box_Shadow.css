@@ -1,0 +1,11 @@
+div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color: green;
+    border:2px solid black ;
+        margin : 10px;
+}
+#one{
+     box-shadow: 2px 2px 10px black;
+}

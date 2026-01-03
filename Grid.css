@@ -1,0 +1,15 @@
+.container{
+    height:300;
+    width:600;
+    background-color: black;
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+.item{
+    height:100px;
+    width:100px;
+    background-color: rgb(197, 183, 53);
+    border:2px solid blue;
+    text-align: center;
+}

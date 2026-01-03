@@ -1,0 +1,22 @@
+#container{
+    height:400px;
+    width:600px;
+    background-color: rgb(209, 182, 106);
+    margin: auto;
+    display:flex;
+    border:2px solid black;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+
+}
+#container div{
+ height:100px;
+ width:300px;
+ border:2px solid black;
+ text-align:center;
+}
+h1{
+    text-align:center;
+}
